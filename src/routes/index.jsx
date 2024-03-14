@@ -43,23 +43,23 @@ const clientAccountRoutes = [
 
 const adminRoutes = [
   {
-    path: "/admin/dashboard",
+    path: "/",
     name: "Dashboard",
     element: <AdminDashboard />,
   },
 ];
 
 const otherRoutes = [
-  {
-    path: "/",
-    name: "Landing",
-    element: <Landing />,
-  },
-  {
-    path: "/not-found",
-    name: "Page Not Found",
-    element: <NotFound />,
-  },
+  // {
+  //   path: "/",
+  //   name: "Landing",
+  //   element: <Landing />,
+  // },
+  // {
+  //   path: "/not-found",
+  //   name: "Page Not Found",
+  //   element: <NotFound />,
+  // },
   // {
   //   path: "/maintenance",
   //   name: "Maintenance",
